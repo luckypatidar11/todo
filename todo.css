@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #5d6e8e;
+}
+
+.container{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    background-color: #ad82a7;
+    
+}
+
+    h1{
+        text-align: center;
+        font-style: italic;
+        color: black;
+        font-size: 25px;
+        margin-right:10px ;
+    }
+
+    h1:hover{
+        color: goldenrod;
+    }
+
+    input[type="text"]{
+        width: 70%;
+        padding: 10px;
+        border: 1px solic white;
+        border-radius: 3px;
+
+    }
+
+    button{
+        padding: 7px 20px;
+        background-color: blue;
+        color: white;
+        font-weight: 700;
+        border: 0;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 5px;
+        transition: 2s ease-in-out;
+    }
+
+    .deletebtn{
+        background-color: goldenrod;
+        color: white;
+        font-size: bold;
+        font-weight: 700;
+        margin-left: 20px;
+        transition: 2s ease-in;
+    }
+
+    .deletebtn:hover{
+        border: 1px solid black;
+    }
+
+    button:hover{
+        border: 1px solid white;
+
+    }
+
+    ul{
+        padding: 0;
+        
+    }
+
+    li{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 1px solid white;
+
+    }
+
+    li:last-child{
+        border-bottom: none;
+    }
+
+    #input-text{
+        color: black;
+        font-size: 25px;
+        margin-right: 10px;
+    }
+
+    #tasklist{
+        font-weight: 700;
+    }
+
+  @media(max-width:425px){
+    .container{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+  }
+
+
+  @media(max-width:625px){
+    .container{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+  }
+
